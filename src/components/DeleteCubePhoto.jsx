@@ -7,6 +7,7 @@ import { Navigate } from "react-router-dom";
 
 function Delete({ trigger ,setTrigger, id, code}){
     const [dato,setDato] = useState()
+    
     const [viewToast,setViewToast] = useState(false)
     const [nav,setNav] = useState(false)
 

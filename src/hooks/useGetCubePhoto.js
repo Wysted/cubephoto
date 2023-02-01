@@ -12,8 +12,7 @@ export function useGetCubePhoto(id){
         
     },[id])
 
-    useEffect(()=>{
-        
+    useEffect(()=>{    
         loadCubePhoto()
     },[loadCubePhoto])
     

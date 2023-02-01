@@ -1,14 +1,9 @@
-import { useEffect } from 'react';
 import Card from '../components/Card.jsx'
 import { useGetCubePhotos } from '../hooks/useGetCubePhotos'
 
 function Home(){
     
-    const { cubePhoto , loadCubePhotos } = useGetCubePhotos()
-    
-    useEffect(()=>{
-        loadCubePhotos()
-    },[])
+    const { cubePhoto } = useGetCubePhotos()
 
     const newDate = (date) =>{
         const parts = date.split(" ")
