@@ -18,8 +18,6 @@ function Footer(){
         if (document.body.clientHeight < window.outerHeight){
             ref.current?.style.setProperty('--bottom', '0')
         }
-        console.log(document.body.clientHeight)
-        console.log(window.outerHeight)
     },[])
 
     return (
@@ -31,3 +29,4 @@ function Footer(){
 export default Footer
 
 
+// Gey
